@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--
+Name: Damien Aldridge
+File name: interests.html
+Date: 09/05/2023
+ -->
+<html lang="en">
+  <head>
+    <title>Damien: Interests</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&family=Patrick+Hand&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1>Damien Aldridge</h1>
+        <figure class="tab-desk">
+          <img class="tab-desk round" src="./images/tab-hero.jpg" alt="A bumble bee sitting on a flower.">
+          <figcaption class="tab-desk">"Okay, so..."</figcaption>
+        </figure>
+        <figure class="hero-desk">
+          <img class="round" src="./images/desk-hero-new.jpg" alt="A bumble bee landing on a flower.">
+          <figcaption>"Okay, so..."</figcaption>
+        </figure>
+      </header>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="interests.html">Interests</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Use the main element to add content relating to each page. -->
+      <main>
+        <div class="grid">
+          <article id="games">
+            <figure class="interestimage">
+              <img class="round interest" src="./images/controller.jpg" alt="A white Xbox controller.">
+              <figcaption>Video Games</figcaption>
+            </figure>
+            <p class="interestdesc">My favorite past-time is playing video games! All the different stories and mechanics to get immersed in are wonderful. My top three favorite games are:</p>
+            <dl>
+              <dt>The Battle Cats</dt>
+              <dd>A tower-defense game for mobile phones developed by Japanese company PONOS. Take over the world with weird and cute cats! It features a massive cast of characters, fun visuals and music, and so much to do you almost can't run out!</dd>
+              <dt>Hollow Knight</dt>
+              <dd>A metroidvania made by the geniuses at Team Cherry, an indie development team based in Australia. Explore a sprawling kingdom past its prime, meeting unique characters and fighting powerful foes as you try to remember your place in this world. Hollow Knight features some of the best combat mechanics I've had the pleasure of experiencing, every challenge pushes you to get better or teach you a lesson. It even has a sequel in the works!</dd>
+              <dt>Kirby's Epic Yarn</dt>
+              <dd>A platformer developed by Good-Feel and Nintendo. It follows the story of Kirby as he gets sucked into a world made entirely out of arts and crafts, and must stop the evil yarn wizard Yin-Yarn! It's one of the earliest games I remember playing, and I have it to thank for introducing me to the wonders of video games.</dd>
+            </dl>
+          </article>
+
+          <article id="bugs">
+            <figure class="interestimage">
+              <img class="round interest" src="./images/mantis.jpg" alt="A praying mantis on a dark background.">
+              <figcaption class="bug-cap">Bugs</figcaption>
+            </figure>
+            <p class="interestdesc">Bugs are so interesting to me! I'm still somewhat averse to touching them, but in recent years I've found myself in love with all sorts of bugs. Some of my favorites include:</p>
+            
+            <ul id="buglist">
+              <li><a href="https://en.wikipedia.org/wiki/Acanthoplus_discoidalis" target="_blank">Thorny Cricket</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Heteropteryx" target="_blank">Jungle Nymph</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Desmoxytes_purpurosea" target="_blank">Pink Dragon Millipede</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Dragonfly" target="_blank">Dragonflies</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Longhorn_beetle" target="_blank">Longhorn Beetle</a></li>
+            </ul>
+
+          </article>
+        </div>
+
+          <aside class="honorable">
+            <p class="tab-desk">I'd also like to give honorable mentions to Overwatch by Blizzard Entertainment and American Cockroaches!</p>
+          </aside>
+
+          <p class="formprelude">Let's hear from you!</p>
+          <section>
+            <form class="grid">
+              <fieldset>
+                <legend>What's your favorite game?</legend>
+
+                <label for="gName">What's it called?</label>
+                <input type="text" id="gName" name="gName" placeholder="What's your favorite game called?" size="26">
+
+                <label for="platform">What platform is it on?</label>
+                <input type="text" id="platform" name="platform" placeholder="Console, PC, etc.">
+
+                <label for="about">What's it about?</label>
+                <textarea id="about" name="about" placeholder="Tell me about your favorite game!" rows="8" cols="45"></textarea>
+              </fieldset>
+
+              <fieldset>
+                <legend>Do you have any gripes about it?</legend>
+
+                <label for="complaints">What do you not like about it?</label>
+                <textarea id="complaints" name="complaints" rows="9" cols="45" placeholder="Tell me the things you think were not so great about the game!"></textarea>
+
+                <label for="suggestions">How do you suppose it could be improved?</label>
+                <textarea id="suggestions" name="suggestions" rows="9" cols="45" placeholder="Tell me how you think things could have been done differently!"></textarea>
+              </fieldset>
+
+              <input type="submit" value="Submit" class="btn">
+            </form>
+          </section>
+
+          <div id="test"></div>
+      </main>
+
+      <footer>
+        <p>&copy; Copyright 2023. All Rights Reserved.</p>
+
+        <p>8D.77@pcsb.org</p>
+      </footer>
+    </div>
+  </body>
+
+
+  </html>
