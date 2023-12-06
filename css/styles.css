@@ -158,6 +158,24 @@ figcaption {
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
 }
 
+#bugsounds p {
+  padding: 1.7%;
+}
+
+.credit {
+ padding: 1.7%;
+}
+
+#bugsounds a {
+  font-weight: bold;
+  font-size: 1.05em;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3)
+}
+
+audio {
+  padding-bottom: 1.7%;
+}
+
 #test {
   clear: left;
 }
@@ -403,7 +421,7 @@ footer {
 
   .grid {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
   }
 
