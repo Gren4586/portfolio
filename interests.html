@@ -29,8 +29,14 @@ Date: 09/05/2023
         </figure>
       </header>
 
+      <div class="mobile">
+        <a id="menu-icon" onclick="hamburger()">
+          <div>&#9776;</div>
+        </a>
+      </div>
+
       <nav>
-        <ul>
+        <ul id="nav-links">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About Me</a></li>
           <li><a href="interests.html">Interests</a></li>
@@ -88,8 +94,13 @@ Date: 09/05/2023
             <p class="tab-desk">I'd also like to give honorable mentions to Overwatch by Blizzard Entertainment and American Cockroaches!</p>
           </aside>
 
-          <p class="formprelude">Let's hear from you!</p>
-          <section>
+          <div id="hbu">
+            <p>What about you? Do you have a game you want to tell me about?</p>
+            <button onclick="gamequiz()">I do!</button>
+          </div>
+
+          <section id="gameform">
+            <p class="formprelude">Let's hear from you!</p>
             <form class="grid">
               <fieldset>
                 <legend>What's your favorite game?</legend>
@@ -127,6 +138,7 @@ Date: 09/05/2023
         <p>8D.77@pcsb.org</p>
       </footer>
     </div>
+    <script src="scripts/script.js"></script>
   </body>
 
 

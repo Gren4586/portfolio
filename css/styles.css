@@ -55,6 +55,20 @@ header img {
 
 
 /* Navigation Style Rules */
+#menu-icon {
+  background-color: olivedrab;
+  color: #fff;
+  display: block;
+  position: absolute;
+  right: 0.8rem;
+  top: 0.4rem;
+  width: 3rem;
+  height: 2.8rem;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 2rem;
+}
+
 nav {
  margin: 2px;
 }
@@ -62,6 +76,10 @@ nav {
 nav ul {
   list-style-type: none;
   
+}
+
+#nav-links {
+  display: none;
 }
 
 nav li {
@@ -181,6 +199,26 @@ audio {
 }
 
 /* Mobile Viewport: Style rules for form */
+#gameform {
+  display: none;
+}
+
+#hbu {
+  text-align: center;
+  padding: 1.5%;
+}
+
+#hbu button {
+  width: 8rem;
+  height: 5rem;
+  margin-top: 1.5%;
+  padding: 1.5%;
+  font-size: 2rem;
+  background-color: olivedrab;
+  color: #fff;
+  font-family: 'Patrick Hand', cursive;
+}
+
 form {
   margin: 0 auto;
   width: 99%;
@@ -255,6 +293,9 @@ footer {
   }
 
   /* Tablet Viewport: Style rules for navigation */
+  #nav-links {
+    display: block;
+  }
 
   nav ul {
     text-align: center;
@@ -400,24 +441,16 @@ footer {
 
   nav li a {
     padding: 0 2em;
+    display: block;
   }
 
   nav li a:hover {
     color: #fff;
     background-color: olivedrab;
+    transform: scale(1.2);
   }
 
   /* Desktop Viewport: Style rules for main content */
-
-  /*#games, #bugs {
-    width: 30%;
-    margin: 0 10%;
-    float: left;
-  }
-
-  footer {
-    clear: left;
-  }*/
 
   .grid {
     display: grid;
