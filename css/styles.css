@@ -266,6 +266,8 @@ label {
   box-shadow: 4px 4px 10px #000;
 }
 
+
+/* Footer */
 footer {
   text-align: center;
   font-weight: 500;
@@ -273,6 +275,16 @@ footer {
   padding: 2em 0;
   clear: left;
   font-family: 'Inria Sans', sans-serif;
+}
+
+.social img {
+  width: 12%;
+  margin: 0 auto;
+  padding-top: 1.5%;
+}
+
+.social a {
+  margin: 0;
 }
 
 /* Media Query for Tablet Viewport */
@@ -406,6 +418,33 @@ footer {
     width: 500px;
   }
 
+  /* Tablet Viewport: Style rules for Footer */
+  .social img {
+    width: 10%;
+    padding-top: 0;
+  }
+
+  /* .copyright {
+    float: left;
+    width: 50%;
+  }
+
+  .social {
+    float: right;
+    width: 50%;
+  } */
+
+  footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 1.5%;
+    align-items: center;
+  }
+
+  .copyright p {
+    text-align: center;
+  }
+
 }
 
 /* Media Query for Desktop Viewport */
@@ -498,6 +537,11 @@ footer {
   #map {
     width: 600px;
     height: 600px;
+  }
+
+  /* Desktop Viewport: Style rules for Footer */
+  .social img {
+    width: 8%;
   }
 
 }
